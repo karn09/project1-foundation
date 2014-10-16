@@ -2,21 +2,25 @@
       border: 1px solid red !important;
   }*/
 
-/* override on hr coloring */
+/* override on hr coloring, as per http://stackoverflow.com/questions/6382023/changing-the-color-of-a-hr-element */
+
 hr {
     background-color: #bcbbbb;
     border: 0 none;
     color: #bcbbbb;
     height: 3px;
 }
-h1, h2, h3, h4, p {
+h1,
+h2,
+h3,
+h4,
+p {
     font-family: 'Nunito';
     font-weight: 400;
     color: #747704;
 }
-
 .text-muted {
-    color: #BCBBBB;
+    color: #bcbbbb;
 }
 .text-thin {
     font-weight: 300;
