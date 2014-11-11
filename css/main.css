@@ -1,37 +1,35 @@
 /*  * {
-      border: 1px solid red !important;
-  }*/
-
+border: 1px solid red !important;
+}*/
 /* override on hr coloring, as per http://stackoverflow.com/questions/6382023/changing-the-color-of-a-hr-element */
-
 hr {
-    background-color: #bcbbbb;
-    border: 0 none;
-    color: #bcbbbb;
-    height: 3px;
+background-color: #bcbbbb;
+border: 0 none;
+color: #bcbbbb;
+height: 3px;
 }
 h1,
 h2,
 h3,
 h4,
 p {
-    font-family: 'Nunito';
-    font-weight: 400;
-    color: #747704;
+font-family: 'Nunito';
+font-weight: 400;
+color: #747704;
 }
 .text-muted {
-    color: #bcbbbb;
+color: #bcbbbb;
 }
 .text-thin {
-    font-weight: 300;
+font-weight: 300;
 }
 .text-uppercase {
-    text-transform: uppercase;
+text-transform: uppercase;
 }
 .title-super {
-    font-size: 60px;
+font-size: 60px;
 }
 .title-logo {
-    margin-top: 20px;
-    max-width: 110px;
+margin-top: 20px;
+max-width: 110px;
 }
